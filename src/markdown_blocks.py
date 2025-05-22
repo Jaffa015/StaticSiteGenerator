@@ -31,6 +31,3 @@ def block_to_block_type(block:str):
 		return BlockType.ORDERED_LIST
 	
 	return BlockType.PARAGRAPH
-
-def markdown_to_html_node(markdown):
-	pass
